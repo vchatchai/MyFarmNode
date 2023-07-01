@@ -1,0 +1,2 @@
+idf_component_register(SRCS "SHT3XSensor.hpp" "SHT3XSensor.cpp" "sht3x.c" "sht3x.h" "esp8266_wrapper.c" "esp8266_wrapper.h" "Device.cpp" "main.cpp" "systeminfo.h" "systeminfo.cpp" "wifi.h" "wifi.cpp" "MQTT.hpp" "MQTT.cpp" "ta6586.h" "ta6586.c" "NSV.hpp" "NSV.cpp"
+                    INCLUDE_DIRS "")

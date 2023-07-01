@@ -1,0 +1,2441 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "esp-idf/main/libmain.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"idf_component_register",
+			"add_compile_options",
+			"add_c_compile_options",
+			"include_directories",
+			"add_cxx_compile_options"
+		],
+		"files" : 
+		[
+			"/home/chatchai/esp/esp-idf/tools/cmake/component.cmake",
+			"main/CMakeLists.txt",
+			"/home/chatchai/esp/esp-idf/tools/cmake/utilities.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 454,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 455,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 282,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 464,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 453,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 456,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 271,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-std=gnu++11"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DIDF_VER=\\\"v4.3.1-29-ge493a4c30e-dirty\\\""
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DESP_PLATFORM"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 0,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "UNITY_INCLUDE_CONFIG_H"
+				},
+				{
+					"backtrace" : 0,
+					"define" : "WITH_POSIX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/freertos/port/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hw_support/port/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/hal/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/include/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/driver/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/efuse/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/espcoredump/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_ipc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_pm/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_wifi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_wifi/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_netif/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_eth/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/esp_crt_bundle/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/app_update/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/pthread/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/xtensa"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/esp32"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/include/esp_supplicant"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/perfmon/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/asio/asio/asio/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/asio/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/osi/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/include/esp32/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/api/include/api"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/btc/profile/esp/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/host/bluedroid/api/include/api"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/cbor/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/unity/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/unity/unity/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/cmock/CMock/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/port/include/coap"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/libcoap/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/libcoap/include/coap2"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/console"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nghttp/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nghttp/nghttp2/lib/includes"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp-tls"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp-tls/esp-tls-crypto"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_adc_cal/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hid/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_http_client/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_http_server/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_https_ota/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protobuf-c/protobuf-c"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/common"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/security"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/transports"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mdns/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_local_ctrl/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_serial_slave_link/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_websocket_client/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/expat/expat/expat/lib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/expat/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/diskio"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/vfs"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/idf_test/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/idf_test/include/esp32"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/jsmn/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/json/cJSON"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/openssl/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/spiffs/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/ulp/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/esp_idf_lib_helpers"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/i2cdev"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ads111x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ads130e08"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/aht"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/am2320"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bh1750"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bh1900nux"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bme680"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bmp180"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bmp280"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/button"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ccs811"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lib8tion"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/color"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/dht"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/dps310/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds1302"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds1307"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/onewire"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds18x20"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds3231"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds3502"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/encoder"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/example"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/framebuffer"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hd44780"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hdc1000"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hmc5883l"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ht16k33"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hts221"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hx711"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/icm42670"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina219"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina260"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina3221"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lc709203f"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/led_strip"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/led_strip_spi"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lm75"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ls7366r"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31725"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31855"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31865"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max7219"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp23008"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp23x17"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp342x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp4725"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp960x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp9808"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mhz19b"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ms5611"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/noise"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pca9557"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pca9685"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8563"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8574"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8575"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8591"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/qmc5883l"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/rda5807m"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/scd30"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/scd4x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sgm58031"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sgp40"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sht3x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sht4x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/si7021"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sts21"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tca9548"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tca95x5"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tda74xx"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl2561"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl2591"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl4531"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsys01"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ultrasonic"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/veml7700"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/wiegand"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/examples/common_components/protocol_examples_common/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				7,
+				9,
+				11,
+				13,
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DIDF_VER=\\\"v4.3.1-29-ge493a4c30e-dirty\\\""
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DESP_PLATFORM"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 0,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "UNITY_INCLUDE_CONFIG_H"
+				},
+				{
+					"backtrace" : 0,
+					"define" : "WITH_POSIX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/freertos/port/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hw_support/port/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/hal/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_rom/include/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/driver/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/efuse/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/espcoredump/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_ipc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_pm/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_wifi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_wifi/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_netif/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_eth/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/chatchai/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mbedtls/esp_crt_bundle/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/app_update/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/pthread/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/xtensa"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_gdbstub/esp32"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wpa_supplicant/include/esp_supplicant"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/perfmon/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/asio/asio/asio/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/asio/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/osi/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/include/esp32/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/api/include/api"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/common/btc/profile/esp/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/bt/host/bluedroid/api/include/api"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/cbor/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/unity/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/unity/unity/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/cmock/CMock/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/port/include/coap"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/libcoap/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/coap/libcoap/include/coap2"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/console"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nghttp/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/nghttp/nghttp2/lib/includes"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp-tls"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp-tls/esp-tls-crypto"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_adc_cal/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_hid/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_http_client/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_http_server/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_https_ota/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protobuf-c/protobuf-c"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/common"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/security"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/protocomm/include/transports"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mdns/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_local_ctrl/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_serial_slave_link/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/esp_websocket_client/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/expat/expat/expat/lib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/expat/port/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/diskio"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/vfs"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/fatfs/src"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/idf_test/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/idf_test/include/esp32"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/jsmn/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/json/cJSON"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/openssl/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/spiffs/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/ulp/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/components/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/esp_idf_lib_helpers"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/i2cdev"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ads111x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ads130e08"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/aht"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/am2320"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bh1750"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bh1900nux"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bme680"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bmp180"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/bmp280"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/button"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ccs811"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lib8tion"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/color"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/dht"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/dps310/include"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds1302"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds1307"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/onewire"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds18x20"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds3231"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ds3502"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/encoder"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/example"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/framebuffer"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hd44780"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hdc1000"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hmc5883l"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ht16k33"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hts221"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/hx711"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/icm42670"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina219"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina260"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ina3221"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lc709203f"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/led_strip"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/led_strip_spi"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/lm75"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ls7366r"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31725"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31855"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max31865"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/max7219"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp23008"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp23x17"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp342x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp4725"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp960x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mcp9808"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/mhz19b"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ms5611"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/noise"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pca9557"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pca9685"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8563"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8574"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8575"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/pcf8591"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/qmc5883l"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/rda5807m"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/scd30"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/scd4x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sgm58031"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sgp40"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sht3x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sht4x"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/si7021"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/sts21"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tca9548"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tca95x5"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tda74xx"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl2561"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl2591"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsl4531"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/tsys01"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/ultrasonic"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/veml7700"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-src/components/wiegand"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/chatchai/esp/esp-idf/examples/common_components/protocol_examples_common/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				15
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_pm::@c93acdd4f72df5fa58db"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_asio::@db1a8833e22596808d70"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bt::@0a9ab9982b985d43ed2a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_cbor::@54bec30243cbf65f6214"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_unity::@fec746937506b5690992"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_cmock::@38f9eb59693b7394f54c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_coap::@9ea4196552bc90428972"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_console::@4311ed8d271cc0ee1422"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_esp_adc_cal::@dc736dc1d836ef36c9a5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_esp_hid::@15df40e16a5d8775dd9b"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_protobuf-c::@b14513c4bd859268ec22"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_protocomm::@d76d01c8dec06205e1fc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mdns::@2f076c6da9dadb273cdc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_esp_local_ctrl::@d6aad58d2946e56208ef"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_esp_websocket_client::@2aa04d350e0c9afab7cd"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_expat::@af4f74c6fac3f93a3341"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_wear_levelling::@cb21b0d7c0815cff11c6"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_fatfs::@75ac1d9b25dacc8cc9e7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_freemodbus::@de63ca74a1babc26b29c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_jsmn::@88dec008f06e3af609d0"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_json::@c78a8bdc820334f01148"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_libsodium::@66e4f5d448f23c9449a2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_openssl::@e614527ea5fe5ca5f395"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_spiffs::@df881b71474064c86689"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_wifi_provisioning::@9d7e7ffe1b15746c1098"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_i2cdev::@91d7f992952b09ba10c5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ads111x::@a5bf0e81c80784f29f53"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ads130e08::@1da63514e82640a11fb4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_aht::@324175f4ddef93152ee0"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_am2320::@249a6c9d1269d56584ff"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bh1750::@ca0879856405af52d560"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bh1900nux::@bcd4161df221c39b1b16"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bme680::@6d3a90b37739a4ec5266"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bmp180::@44ef62e9a1f4c5acb130"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_bmp280::@1cb4abfca262dfa63274"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_button::@4e15bdd2084979f3b8e2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ccs811::@03a2cc9fd77387706953"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_lib8tion::@76344a97234cc2355af2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_color::@3563b3c46f8018782176"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_dht::@027e9a0b39a9767cba1f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_dps310::@b7e7b0844f6cdc780f46"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ds1302::@c1b455cdb33c25bc956f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ds1307::@11faad6676f1322d1c29"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_onewire::@7b2885c970915e9e391f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ds18x20::@d3511c0d7b04c16fd84d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ds3231::@3d65f952da532911dc11"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ds3502::@8e2e4be53b5cc60bfa74"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_encoder::@532bcc6efaf6f8bc3fcf"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_example::@ff1a256b2aa92313a572"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_framebuffer::@3064cb52b6baf94c1cf1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_hd44780::@b3339f0285690a317158"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_hdc1000::@1e2e2b2a9f51b8507e85"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_hmc5883l::@516f540aa2f9d8a5ec32"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ht16k33::@149272d7831ca9dc3c71"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_hts221::@c68275aebc765e77d2c5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_hx711::@d39734a9d3b76e9bd13c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_icm42670::@e41ad96b9dc16cc83838"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ina219::@3a760bfa1e629a7d1730"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ina260::@15e05a688d982bf8c6b3"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ina3221::@753f3313a8809a7c8be7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_lc709203f::@75a006659d1b71b5f489"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_led_strip::@aa443316a99fb884b8ed"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_led_strip_spi::@f5c1a1ff8bbdcdc13789"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_lm75::@a50fc8411e3784b908ca"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ls7366r::@7091e846383873c66a1a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_max31725::@e5be4591dc0873bc89ce"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_max31855::@eb8599b8535cd7d120b4"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_max31865::@24364a4f572a5d0738cc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_max7219::@18d1b7798338784c3a5d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp23008::@7329b4e653efec0ddfec"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp23x17::@a84000afb6ec9e2746dc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp342x::@1490d8634d06d93002b9"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp4725::@2084794f5d061bc98d45"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp960x::@87f75c08757ab02c6689"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mcp9808::@03c9880d553a39754d32"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_mhz19b::@2926809f09c5c51835a6"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ms5611::@b71dcfb3eb4d339d1fb8"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_noise::@f151358e8c0a8df10d17"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pca9557::@c1ce78eba1b9e8f066b8"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pca9685::@8fe1311851a28eb58d5a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pcf8563::@a9155de1de4cd56dd3df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pcf8574::@173b8e20dbbcd0bf3e13"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pcf8575::@b8430ee58fe6483c0ec1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_pcf8591::@30c5933afbf28ffeb2bf"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_qmc5883l::@d502def1c120bce4e53e"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_rda5807m::@3a4cc77f6369f1c5081f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_scd30::@b186e60791dec9b6b8cc"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_scd4x::@07ab87c4dd2d1fce1d8b"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_sgm58031::@bed3d4fb75471483a8ca"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_sgp40::@8a39d67eefb567bc3979"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_sht3x::@0727684e586476d63107"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_sht4x::@84f420ecb8ee2e18d1c5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_si7021::@702dce629ad118fb7014"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_sts21::@7f931a7d6f94fa6d2f32"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tca9548::@b5a40f4ecca00a876ddd"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tca95x5::@a95d520220fe9bffcbe5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tda74xx::@3473e957005c4cd65614"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tsl2561::@99b2585c15f508b010ef"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tsl2591::@4c34cd21b21ae7f160cb"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tsl4531::@3356bec7fba7aa845355"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_tsys01::@69d3a3b83e0dd909875d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_ultrasonic::@4f36ea1c96c7553832c6"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_veml7700::@ae71e5c463bfa6112aac"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_wiegand::@d632310fd763861d4856"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "__idf_protocol_examples_common::@f775e6a13b1007a4569f"
+		}
+	],
+	"id" : "__idf_main::@7368607ed66887415643",
+	"name" : "__idf_main",
+	"nameOnDisk" : "libmain.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/main",
+		"source" : "main"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "main/SHT3XSensor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/SHT3XSensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/sht3x.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/sht3x.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/esp8266_wrapper.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/esp8266_wrapper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/Device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/systeminfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/systeminfo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/wifi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/wifi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/MQTT.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/MQTT.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/ta6586.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "main/ta6586.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "main/NSV.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/NSV.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
