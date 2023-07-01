@@ -1,2 +1,0 @@
-/home/chatchai/esp/esp32/cpp/build/CMakeFiles/rebuild_cache.dir
-/home/chatchai/esp/esp32/cpp/build/CMakeFiles/edit_cache.dir

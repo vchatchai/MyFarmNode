@@ -1,3 +1,0 @@
-/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-subbuild/CMakeFiles/rebuild_cache.dir
-/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-subbuild/CMakeFiles/edit_cache.dir
-/home/chatchai/esp/esp32/cpp/build/_deps/espidflib-subbuild/CMakeFiles/espidflib-populate.dir
