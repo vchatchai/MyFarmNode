@@ -47,12 +47,23 @@ MQTT *MQTT::getInstance()
     return instance;
 }
 
+esp_mqtt_client_config_t getConfig(esp_mqtt_client_config_t mqtt_cfg) {
+    mqtt_cfg.broker.address.uri = CONFIG_BROKER_URL; 
+    return mqtt_cfg;
+
+}
+
 void MQTT::connect()
 {
     ESP_LOGI(TAG, "MQTT Connect");
-    esp_mqtt_client_config_t mqtt_cfg = {
-        .uri = CONFIG_BROKER_URL,
-    };
+    // const esp_mqtt_client_config_t mqtt_cfg = {
+    //     .broker.address.uri = CONFIG_BROKER_URL,
+    // };
+        esp_mqtt_client_config_t mqtt_cfg = {};
+    mqtt_cfg = getConfig(mqtt_cfg);
+
+    // mqtt_cfg.broker.address.uri = CONFIG_BROKER_URL;
+   
     // esp_mqtt_event_handle_t
 #if CONFIG_BROKER_URL_FROM_STDIN
     char line[128];

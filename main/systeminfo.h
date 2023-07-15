@@ -2,7 +2,7 @@
 #define SYSTEMINFO_H
 
 #include "esp_system.h"
-
+#include "esp_chip_info.h"
 class Systeminfo
 {
 private:

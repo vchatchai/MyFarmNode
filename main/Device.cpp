@@ -1,12 +1,11 @@
 #include "Device.hpp"
 #include "MQTT.hpp"
-#include "SHT3XSensor.hpp"
 
-#include "esp_log.h"
+// #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/timers.h"
 #include "cJSON.h"
-
+#include "freertos/task.h"
 #include "driver/gpio.h"
 #include "ta6586.h"
 
@@ -46,7 +45,9 @@ void Device::mqttPublishTask()
             char *out = cJSON_Print(root);
 
             int msg_id = MQTT::getInstance()->publish(topic, out, 0);
-            ESP_LOGI(TAG, "msg id: %d xTaskGetTickCount %d : %d", msg_id, xTaskGetTickCount(), count);
+            TickType_t tick = xTaskGetTickCount();
+            
+            ESP_LOGI(TAG, "msg id: %d xTaskGetTickCount %d : %d", msg_id, (int) tick, count);
 
             cJSON_Delete(root);
             free(out);

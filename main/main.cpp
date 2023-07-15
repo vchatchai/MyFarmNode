@@ -21,6 +21,7 @@
 #include "MQTT.hpp"
 #include "Device.hpp"
 #include "NSV.hpp"
+#include "esp_mac.h"
 
 static const char *TAG = "MAIN";
 extern "C"
@@ -31,7 +32,7 @@ extern "C"
 void app_main(void)
 {
     ESP_LOGI(TAG, "[APP] Startup..");
-    ESP_LOGI(TAG, "[APP] Free memory: %d bytes", esp_get_free_heap_size());
+    ESP_LOGI(TAG, "[APP] Free memory: %d bytes", (unsigned int) esp_get_free_heap_size());
     ESP_LOGI(TAG, "[APP] IDF version: %s", esp_get_idf_version());
     // Initialize NVS
     esp_err_t ret = nvs_flash_init();
@@ -65,6 +66,7 @@ void app_main(void)
     MQTT::getInstance()->connect();
 
     uint8_t chipid[6];
+    
     esp_read_mac(chipid, ESP_MAC_WIFI_STA);
     static char str_chipid[16];
     sprintf(str_chipid, "%x%x%x%x%x%x", chipid[0], chipid[1], chipid[2], chipid[3], chipid[4], chipid[5]);
